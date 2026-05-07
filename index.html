@@ -10,9 +10,12 @@
 </head>
 <body>
     <div id="map"></div>
+
+    <!-- ✅ autoload=false 추가! -->
     <script type="text/javascript"
         src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=b94d799d9fa13762036e929d323fbc2f&autoload=false&libraries=services">
     </script>
+
     <script>
         kakao.maps.load(function() {
             var mapContainer = document.getElementById('map');
